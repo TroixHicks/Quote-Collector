@@ -1,0 +1,70 @@
+body{
+    font-family: monospace;
+    background-image: url(blues.png);
+    background-size: cover;
+   
+}
+/* 
+.main{
+    border: 1px solid black;
+    height: 200px;
+    position: relative;
+    width: 70%;
+    float: left;
+    background-image: url(wallpaper.png);
+    background-image: cover;
+    border-radius: 10px;
+    box-shadow: 12px 12px 2px 1px whitesmoke;
+} */
+
+.container{
+    background-color: whitesmoke;
+    width: 440px;
+    padding: 30px;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    box-shadow: 12px 12px 2px 1px rgba(172, 236, 245, 0.479);
+    border-radius: 10px;
+    
+   
+
+
+}
+
+
+ 
+ 
+ 
+
+
+.contain{
+    background-color: whitesmoke;
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    box-shadow: 12px 12px 2px 1px rgba(172, 236, 245, 0.479);
+    border-radius: 10px;
+    
+}
+
+button{
+    width: 90px;
+    padding: 10px 0;
+    border: 2.5px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: lightblue;
+}
+
+input{
+    padding: 7px;
+}
+
+h1{
+    text-align: center;
+}
+
+

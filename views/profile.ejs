@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+    <title>21 Savage Fan Site</title>
+    <!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> -->
+    <title>MY APP</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="https://kit.fontawesome.com/d3cfcd7d11.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="main">
+
+
+    </section>
+   
+    <section class="container">
+
+
+      <h1> Quote Tracker</h1>
+
+      <form action="/quotes" method="POST">
+      <input type="text" placeholder="name" name="name">
+      <input type="text" placeholder="quote" name="quote">
+      <!-- <input type="file"> -->
+      
+
+      <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section class="contain">
+      <h2> Collected Quotes</h2>
+
+      <a href="/liked"> Most Liked </a>
+
+      <form action="/authorSearch" method="GET">
+        <input type="text" placeholder="Author's Name" name="name">
+        
+        
+        
+  
+        <button type="submit">Search</button>
+      </form>
+      <form action="/bookSearch" method="GET">
+        <input type="text" placeholder="Book Name" name="name">
+          
+          
+          
+    
+        <button type="submit">Search</button>
+      </form>
+      <h3> Quotes</h3>
+      <ol class="quotes">
+        <% for(var i=0; i<quotes.length; i++) {%>
+          <li style="color:#<%= quotes[i].color %>">
+            
+            
+          Author's Name:<p><%=quotes[i].name %></p>
+          Quote:<p><%= quotes[i].quote %></p>
+
+          
+            <span><i class="fas fa-star" aria-hidden="true"></i></span>
+            <span><i class="fa fa-trash" aria-hidden="true"></i></span>
+          </li>
+        <% } %>
+      </ol>
+
+     
+
+
+    </section>
+
+
+
+    
+
+   
+    <script src="/main.js"></script>
+  </body>
+  </html>
+
+  
+</html>
