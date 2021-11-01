@@ -5,3 +5,5 @@
 
 
 DESCRIPTION: I created a full stack application that uses node/express. The premise of the app is to let you upload and keep track of quotes. The user can see the liked quotes and search for others by the authors name.
+
+TECH INCLUDED: HTML, CSS, JS,JSON, NODE.JS, EXPRESS
